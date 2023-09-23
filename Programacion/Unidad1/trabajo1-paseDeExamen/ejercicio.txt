@@ -1,0 +1,15 @@
+24 de Agosto de 2023
+
+RESOLVER LOS SIGUIENTES EJERCICIOS:
+
+PROBLEMA 1: Diseñar un algoritmo que lea un numero y verifique si es negativo, positivo o es 0.
+
+PROBLEMA 2: Diseñe un algoritmo que calcule el perimetro de un triangulo dada la base y la altura
+
+PROBLEMA 3: Diseñe un algoritmo que imprima las horas, minuto y segundos de un tiempo proporcionado en segundos
+
+PROBLEMA 4: Diseñe un algoritmo que calcule el area y perimetro de un cilindro dada la altura y el radio.
+
+
+==========================================================================
+El reporte debe 

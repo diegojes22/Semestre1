@@ -18,6 +18,9 @@
  * deberan tener un rango de entre 5 y 20 elementos por conjunto.
  * Los elementos deberan ser generados aleatoriamente considerando solamente
  * el abecedario en minusculas.
+ *
+ * Origen:
+ * https://github.com/diegojes22/Semestre1/blob/diegojes22-finalCorrect/Matematica%20discretas/tarea%205/Conjuntos.java
  */
 
 import java.util.Scanner;

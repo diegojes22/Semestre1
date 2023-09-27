@@ -6,8 +6,13 @@
  * Grupo.: 1-C Bis
  * EQUIPO: - Diego Jesus Muñoz Andrade        
  *         - Enoc Arturo Guzmán Rodríguez    
- *         - Laura Fernanda Nuñez Guardado   
- *         - Kike (mencion honorifica y testigo)       
+ *         - Laura Fernanda Nuñez Guardado  
+ * 
+ * MENCIONES HONORIFICAS: 
+ *         - Kike (testigo)
+ *         - Yisus (testigo y apoyo moral)
+ *         - Luis (el wicho fue por los refrescos)
+ *         - Profe Zambrano (Es el profe)     
  * 
  * Organizacion: Tecnologico Nacional de Mexico
  * Plantel.....: Campus La Piedad

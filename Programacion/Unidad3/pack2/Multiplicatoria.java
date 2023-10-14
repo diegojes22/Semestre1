@@ -1,5 +1,3 @@
-package UnitThree;
-
 import java.util.Scanner;
 
 /**
@@ -19,7 +17,7 @@ public class Multiplicatoria {
         // variables
         Scanner in = new Scanner(System.in);
         int n = 0;
-        float resultado = 0, multiplicatoria = 1;
+        float multiplicatoria = 1;
         
         // pedir datos
         do{
@@ -29,16 +27,13 @@ public class Multiplicatoria {
         
         // hacer multiplicatoria
         System.out.print("Multiplicatoria("+n+") = ");
-        for(int i = 2; i <= n; i++) {
-            resultado = i / (i - 1);
-            multiplicatoria *= resultado;
+        for(float i = 2; i <= n; i++) {
+            multiplicatoria *= i / (i - 1);
             
             System.out.print(i+"/"+(i-1)+" * ");
-            System.out.println(multiplicatoria);
         }
-        System.out.println("");
         
         // Mostrar resultado
-        System.out.println("Multiplicatoria = "+multiplicatoria);
+        System.out.println("\nMultiplicatoria = "+multiplicatoria);
     }
 }

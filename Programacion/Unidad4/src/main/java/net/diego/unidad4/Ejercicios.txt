@@ -1,0 +1,23 @@
+1- Diseñe un programa que lea 20 numeros, los guarde en un arreglo unidimensional y posteriormente 
+   los escriba en el orden inverso en que se leyeron.
+
+2- Diseñe un programa que guarde 20 numeros enteros en el arreglo "M" y otros 2 numeros en el arreglo "N".
+   Identifique si los arreglos son iguales o son diferentes. Seran iguales cuando en la misma posicion de
+   ambos se tiene el mismo valor para todos los elementos.
+
+3- Diseñar un programa en el que declare e inicialize un arreglo de tipo String con 2 nombres; posteriormente
+   idenifique si el arreglo esta ordenado de manera asendente.
+
+4- Diseñe un programa que declare e inicialize un arreglo de numeros flotantes (20 numeros); posteriormente
+   lea un numero cualquiera del teclado e indique cuantos numeros del arreglo son menores o iguales al valor
+   leido.
+
+5- Diseñe un programa que lea 2 vectores llamados "A" y "B" de 20 elementos cada uno y multiplique el prime
+   elemento de "A" con el ultimo elemento de "B" y luego el segundo de "A" por el penultimo de "B"
+   y asi sucesivamente hasta llegar al ultimo de "A" por el primero de "B". El resultado de la 
+   multiplicacion quedara quedara en "C" en el orden en que fueron efectuados, por ultimo imprimir los 3 
+   vectores
+
+6- Diseñar un programa que lea 20 numeros y los guarde en un arreglo A (Introducirlos de forma ascendente),
+   leer otros 20 numeros y guardarlos en arreglo B (de forma ascendente). Posteriormente mezclarlos en el
+   arreglo C de forma ascendente. Por ultimo, imprimir los tres arreglos.

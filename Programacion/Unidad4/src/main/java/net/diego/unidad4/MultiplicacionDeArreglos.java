@@ -1,6 +1,7 @@
 package net.diego.unidad4;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  *
@@ -20,7 +21,10 @@ import java.util.Random;
  * los 3 vectores.
  */
 public class MultiplicacionDeArreglos {
-    // Generar un arreglo de n elementos aleatorios
+    // Generar un arreglo de n elementos aleatorios.
+    // Esta funcion se utiliza principalmente para no
+    // ingresar datos de forma manual y de esa forma 
+    // Agilizar el proceso.
     public static int[] gen_array(int len) {
         Random gen = new Random();
         int array[] = new int[len];
@@ -42,13 +46,26 @@ public class MultiplicacionDeArreglos {
     
     public static void main(String[] args) {
         // variables
+        Scanner in = new Scanner(System.in);
         int A[], B[], C[];
         int i = 0, j = 19, len = 20;
         
         // generar arreglos
-        A = gen_array(len);
-        B = gen_array(len);
-        C = gen_array(len);
+        A = new int[20];
+        B = new int[20];
+        C = new int[20];
+        
+        // Leer arreglos
+        System.out.println("----[ ARREGLO A ]-------------------------------------------------");
+        for(i = 0; i < len; i++) {
+            System.out.print("Ingrese el elemento "+i+" del arreglo: ");
+            A[i] = in.nextInt();
+        }
+        System.out.println("----[ ARREGLO B ]-------------------------------------------------");
+        for(i = 0; i < len; i++) {
+            System.out.print("Ingrese el elemento "+i+" del arreglo: ");
+            B[i] = in.nextInt();
+        }
         
         // Multiplicar arreglos
         for(i = 0; i < len; i++) {
@@ -56,6 +73,7 @@ public class MultiplicacionDeArreglos {
         }
         
         // Mostrar Arreglos
+        System.out.println("----[ RESULTADO ]-------------------------------------------------");
         print_int_array(A);
         print_int_array(B);
         print_int_array(C);
